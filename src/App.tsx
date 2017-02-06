@@ -66,7 +66,7 @@ export class App extends React.Component<{}, typeof componentState> {
           <button onClick={(e) => this.random(e)}>ランダム</button>
           <h1>{this.state.janken}</h1>
         </div>
-        <a href="https://github.com/ovrmrw/create-react-app-typescript-starter">GitHub</a>
+        <a href="https://github.com/ovrmrw/meguroes-react-inversify-typescript">GitHub</a>
       </div>
     )
   }
