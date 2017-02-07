@@ -12,8 +12,7 @@ const componentState = {
 
 
 export class App extends React.Component<{}, typeof componentState> {
-  @lazyInject(Actions)
-  actions: Actions
+  @lazyInject(Actions) actions: Actions
 
 
   constructor(props) {
